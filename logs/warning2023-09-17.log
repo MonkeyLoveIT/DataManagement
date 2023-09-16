@@ -1,5 +1,0 @@
-2023-09-17 00:20:30,892 -ERROR- File:log.py[Line:51]：This is an error message
-Traceback (most recent call last):
-  File "/Users/eddy/PycharmProjects/DataManagement/utils/log.py", line 46, in <module>
-    raise Exception
-Exception
