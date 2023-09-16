@@ -21,7 +21,7 @@ class MysqlTest(models.Model):
     updated_date = models.DateTimeField(auto_now=True)  # 更新时候插入时间
 
     class Meta:
-        managed = False
+        managed = True  # 迁移时自动生成表格
         db_table = 'mysql_test'
         indexes = [
             models.Index(fields=['created_by'], name='index_test_created_by'),
